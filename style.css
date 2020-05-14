@@ -146,7 +146,7 @@ h2 {
     }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1220px) {
     body {
         background-color: #252E8B;
     }
