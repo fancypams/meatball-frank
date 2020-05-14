@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meatball Frank!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="site-grid">
+        <div id="left-wrapper" class="left-wrapper">
+            <h1 class="title-meatball">Meatball</h1>
+            <h1 class="title-frank">Frank!</h1>
+
+            <div id="play-btn" class="play-btn" onclick="playGame()">
+                Play
+            </div>
+
+            <div class="score-wrap">
+                <h2 class="output-title">Your Score:</h2>
+                <h2 id="score" class="output">0</h2>
+
+                <h2 class="output-title">Seconds Left:</h2>
+                <h2 id="time-left" class="output">60</h2>
+            </div>
+        </div>
+
+        <div class="right-wrapper">
+            <div class="mole-grid">
+                <div class="hole" id="1"></div>
+                <div class="hole" id="2"></div>
+                <div class="hole" id="3"></div>
+                <div class="hole" id="4"></div>
+                <div class="hole" id="5"></div>
+                <div class="hole" id="6"></div>
+                <div class="hole" id="7"></div>
+                <div class="hole" id="8"></div>
+                <div class="hole" id="9"></div>
+            </div>
+        </div>
+    </div>
+    <div class="meatball"></div>
+</body>
+
+<script src="app.js" charset="utf-8"></script>
+
+</html>
